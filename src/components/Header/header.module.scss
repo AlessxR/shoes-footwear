@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    justify-content: space-around; /* Центрирование по горизонтали */
+    align-items: center;    /* Центрирование по вертикали */
+    padding: 34px 0;
+    
+  
+    .header__nav {
+      
+      ul {
+        display: flex;
+        flex-direction: row;
+        li {
+          color: rgb(174, 174, 174);
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 29px;
+          margin-right: 81px;
+          list-style-type: none;
+          cursor: pointer;
+        }
+        hr {
+          width : 28px;
+          height: 0px;
+          border: 1px solid rgb(44, 51, 51);
+        }
+      }
+    }
+  
+    .hamburger {
+      display: inline-block;
+      cursor: pointer;
+      span {
+        display: block;
+        width: 30px;
+        height: 4px;
+        margin: 6px 0;
+        background-color: #333;
+        border-radius: 2px;
+        transition: all 0.3s ease-in-out;
+      }
+      span:hover {
+        background-color: #555;
+      }
+    }
+    
+    .header__search {
+      display: flex;
+      cursor: pointer;
+      img {
+        width: 42px;
+        height: 42px;
+      }
+      // hr {
+      //   margin-right: 30px;
+      // }
+    }
+}
