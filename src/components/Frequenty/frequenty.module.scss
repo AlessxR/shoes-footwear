@@ -1,0 +1,79 @@
+$primary-color: rgb(44, 51, 51);
+$secondary-color: rgb(255, 255, 255);
+$font-family: 'Bebas Neue';
+$font-size-large: 48px;
+$font-size-medium: 24px;
+$border-radius: 10px;
+$box-shadow: 2px 10px 15px 0px rgba(29, 132, 194, 0.05);
+$input-height: 69.44px;
+
+.frequenty {
+  min-height: 600px;
+
+  .frequenty__main {
+    display: flex;
+    min-height: 160px;
+    align-items: flex-end;
+
+    .frequenty_unreal {
+      width: 20%;
+    }
+
+    .frequenty_questions {
+      padding-bottom: 25px;
+      width: 80%;
+      color: $primary-color;
+      font-family: $font-family;
+      font-size: $font-size-large;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+
+  .frequenty_search_content {
+    padding: 25px;
+
+    .frequenty_content {
+      display: flex;
+      flex-direction: column;
+
+      input {
+        width: 100%;
+        height: $input-height;
+        border: 1px solid $primary-color;
+        background: $secondary-color;
+        color: rgb(174, 174, 174);
+        font-family: $font-family;
+        font-size: $font-size-medium;
+        font-weight: 400;
+        text-align: left;
+      }
+
+      div {
+        margin-top: 25px;
+
+        button {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          height: $input-height;
+          width: 100%;
+          border: 1px solid $primary-color; // Changed border-bottom to full border
+          border-radius: $border-radius;
+          box-shadow: $box-shadow;
+          color: $primary-color;
+          font-family: $font-family;
+          font-size: $font-size-medium;
+          font-weight: 400;
+          line-height: 29px;
+          letter-spacing: 10%;
+          text-align: left;
+
+          img {
+            margin-left: 10px; // Add some margin for alignment if needed
+          }
+        }
+      }
+    }
+  }
+}

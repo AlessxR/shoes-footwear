@@ -1,0 +1,121 @@
+.footer {
+  display: flex;
+  .footer__logo {
+    display: flex;
+    max-width: 100%;
+    padding: 25px;
+    border: 1px solid rgb(44, 51, 51);
+    .logo__name {
+      color: rgb(44, 51, 51);
+      font-family: Bebas Neue;
+      font-size: 30px;
+      font-weight: 600;
+      margin-right: 25px;
+      
+    }
+    .logo__descr {
+      color: rgb(44, 51, 51);
+      font-family: Roboto Slab;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+  .footer__info {
+    display: flex;
+    .footer__contacts {
+      min-width: 30%;
+      padding: 25px;
+      border: 1px solid rgb(44, 51, 51);
+      border-top: none;
+      ul {
+        li {
+          list-style-type: none;
+          color: rgb(44, 51, 51);
+          font-family: Roboto Slab;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 26px;
+          letter-spacing: 0%;
+          text-align: left;
+        }
+      }
+    }
+    .footer__addr {
+      min-width: 30%;
+      padding: 25px;
+      border: 1px solid rgb(44, 51, 51);
+      border-top: none;
+      color: rgb(44, 51, 51);
+      font-family: Roboto Slab;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+    .footer__rules {
+      min-width: 25%;
+      padding: 25px;
+      border: 1px solid rgb(44, 51, 51);
+      border-top: none;
+      ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        li {
+          list-style-type: none;
+          color: rgb(44, 51, 51);
+          font-family: Roboto Slab;
+          font-size: 16px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+  .footer__nav {
+    border: 1px solid rgb(44, 51, 51);
+    border-left: none;
+    padding: 13px;
+    ul {
+      li {
+        margin-top: 11px;
+        list-style-type: none;
+        color: rgb(44, 51, 51);
+        font-family: Plus Jakarta Sans;
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration-line: underline;
+      }
+    }
+  }
+  .footer__get_info {
+    border: 1px solid #2c3333;
+    border-left: none;
+    .footer__info_main {
+      padding: 15px;
+      margin: 15px;
+      background: rgb(44, 51, 51);
+      width: 300px;
+      .info__header {
+        color: rgb(255, 255, 255);
+        font-family: Bebas Neue;
+        font-size: 24px;
+        font-weight: 400;
+        margin: 15px;
+      }
+      .info__inp {
+        display: flex;
+        
+        input {
+          margin-left: 15px;
+          width: 189px;
+          height: 37px;
+        }
+        img {
+          height: 42px;
+        }
+      }
+    }
+  }
+}
