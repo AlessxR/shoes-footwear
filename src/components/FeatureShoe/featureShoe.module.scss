@@ -1,0 +1,55 @@
+.shoe_features {
+  padding: 0 25px;
+  .shoe_high{
+    display: flex;
+    justify-content: space-around;
+    .high__left, .high__right{
+      width: 50%;
+      height: 442px;
+      border: 1px solid rgb(44, 51, 50);
+    }
+    .high__right {
+      border-left: none;
+      .right__header, .right__descr {
+        color: rgb(44, 51, 51);
+        font-family: Bebas Neue;
+        font-size: 40px;
+        font-weight: 600;
+        letter-spacing: 5%;
+        text-align: left;
+        margin-left: 25px;
+      }
+      .right__descr {
+        font-size: 24px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .shoe_low {
+    display: flex;
+    justify-content: space-between;
+    .low__left, .low__right {
+      border: 1px solid rgb(44, 51, 50);
+      width: 50%;
+      border-right: none;
+      height: 442px;
+      .left__header, .left__descr {
+        color: rgb(44, 51, 51);
+        font-family: Bebas Neue;
+        font-size: 40px;
+        font-weight: 600;
+        letter-spacing: 5%;
+        text-align: left;
+        margin-left: 25px;
+      }
+      .left__descr {
+        font-size: 24px;
+        font-weight: 400;
+      }
+    }
+    .low__right {
+      border: 1px solid rgb(44, 51, 50);
+    }
+  }
+}

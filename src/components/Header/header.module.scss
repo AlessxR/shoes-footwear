@@ -3,10 +3,10 @@
     justify-content: space-around; /* Центрирование по горизонтали */
     align-items: center;    /* Центрирование по вертикали */
     padding: 34px 0;
-    
+    text-transform: uppercase;;
   
     .header__nav {
-      
+      z-index: 1;
       ul {
         display: flex;
         flex-direction: row;
