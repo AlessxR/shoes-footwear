@@ -1,0 +1,159 @@
+.catalog__block {
+  padding: 25px;
+  border: 1px solid rgb(44, 51, 51);
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog__illistration {
+  width: 50%;
+  height: 380px;
+  border: 1px solid rgb(44, 51, 51);
+  border-right: none;
+  padding: 25px;
+}
+
+.catalog__block_login {
+  padding: 25px;
+  width: 50%;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(44, 51, 51);
+  .catalog__login__content {
+    border: 1px solid rgb(44, 51, 51);
+    padding: 25px;
+    .login__header {
+      font-family: Bebas Neue;
+      font-size: 48px;
+      font-weight: 600;
+      text-align: left;
+    }
+
+    .login__subheader {
+      margin-top: 17px;
+      color: rgb(44, 51, 51);
+      font-family: Roboto Slab;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 23px;
+      max-width: 191px;
+    }
+
+    .login__btn button {
+      padding: 10px 20px;
+      color: rgb(255, 255, 255);
+      font-family: Bebas Neue;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 31px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-top: 35px;
+      width: 219px;
+      height: 81px;
+      background: rgb(44, 51, 51);
+    }
+
+    .login__btn button:hover {
+      background-color: gray;
+    }
+  }
+}
+
+.catalog__card {
+  padding: 50px;
+  .card__header {
+    display: flex;
+    justify-content: space-between;
+
+    .header {
+      color: rgb(44, 51, 51);
+      font-family: Bebas Neue;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 29px;
+    }
+
+    .sorting {
+      display: flex;
+      .sorting__choice {
+        border: 1px solid rgb(44, 51, 51);
+        padding: 13px 10px;
+        font-family: Bebas Neue;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19px;
+        span {
+          font-family: Bebas Neue;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 19px;
+          color: gray;
+        }
+      }
+      .sort__btn {
+        border: 1px solid rgb(44, 51, 51);
+        cursor: pointer;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  .catalog__cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    .catalog__block {
+      display: flex;
+      flex-direction: column;
+      margin: 25px;
+      width: 430px;
+      .block__img {
+        border: 1px solid rgb(44, 51, 51);
+        width: 100%;
+        min-height: 210px;
+        margin-top: 15px;
+      }
+
+      .block__header {
+        margin-top: 15px;
+        color: rgb(44, 51, 51);
+        font-family: Bebas Neue;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 31px;
+      }
+
+      .block__price {
+        margin-top: 15px;
+        color: rgb(122, 122, 122);
+        font-family: Bebas Neue;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 31px;
+      }
+
+      .block__buy {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+
+        .block_btn {
+          width: 318px;
+          height: 47px;
+          background: rgb(44, 51, 51);
+          color: rgb(255, 255, 255);
+          font-family: Bebas Neue;
+          font-size: 24px;
+          font-weight: 600;
+          line-height: 29px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

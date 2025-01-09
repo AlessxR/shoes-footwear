@@ -1,5 +1,5 @@
 import styles from './header.module.scss';
-
+import {Link} from 'react-router-dom';
 function Header() {
   return (
     <header className={styles.header}>
@@ -11,7 +11,7 @@ function Header() {
 
       <div className={styles.header__nav}>
         <ul>
-          <li>Home</li>
+          <li><Link to="/">Home</Link></li>
           <li>About</li>
           <li>
             <hr />
@@ -22,7 +22,7 @@ function Header() {
           <li>
             <hr />
           </li>
-          <li>Catalog</li>
+          <li><Link to="/catalog">Catalog</Link></li>
           <li>Contact</li>
         </ul>
       </div>
