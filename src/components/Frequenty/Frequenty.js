@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import styles from './frequenty.module.scss';
 
+import InfoHeader from '../InfoHeader/InfoHeader';
+
 const questions = [
   "WHAT TYPES OF SHOES DO YOU OFFER?",
   "HOW DO I RETURN AN ITEM?",
@@ -19,13 +21,7 @@ function Frequenty() {
 
   return (
     <section className={styles.frequenty}>
-      <div className={styles.frequenty__main}>
-        <div className={styles.frequenty_unreal}></div>
-        <div className={styles.frequenty_questions}>
-          <h2>Frequently Asked Questions</h2>
-        </div>
-        <div className={styles.frequenty_unreal}></div>
-      </div>
+      <InfoHeader />
 
       <div className={styles.frequenty_search_content}>
         <div className={styles.frequenty_content}>

@@ -7,6 +7,8 @@ import Footer from './components/Footer/Footer';
 import Frequenty from './components/Frequenty/Frequenty';
 
 import Catalog from './pages/Catalog/Catalog';
+import Contact from './pages/Contact/Contact';
+
 import './index.scss';
 
 function App() {
@@ -43,6 +45,9 @@ function App() {
         />
         {/* Страница каталога */}
         <Route path="catalog" element={<Catalog />} />
+
+        {/* Страница контактов */}
+        <Route path="contact" element={<Contact />} />
       </Routes>
     </>
   );
